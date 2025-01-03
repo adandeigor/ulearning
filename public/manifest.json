@@ -1,0 +1,48 @@
+{
+    "name": "ULearning",
+    "short_name": "ULearn",
+    "description": "Une application pour s'auto-former dans le numérique grâce à des ressources gratuites.",
+    "lang": "fr",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4E74FA",
+    "icons": [
+      {
+        "src": "/icons/Icon 1.png",
+        "sizes": "60x44.93",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/Icon 2.png",
+        "sizes": "105x78.63",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/Icon 3.png",
+        "sizes": "160x119.82",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/Icon 4.png",
+        "sizes": "204x152.77",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/Icon 5.png",
+        "sizes": "308x230.65",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/Icon 6.png",
+        "sizes": "438x328",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/Icon 7.png",
+        "sizes": "597x447.07",
+        "type": "image/png"
+      }
+    ]
+  }
+  
