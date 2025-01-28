@@ -190,9 +190,9 @@ export const setVideo = async (data: VideosType) => {
     data.id = Id;
     const validateData = VideosSchema.parse(data);
     await setDoc(doc(db, "videos", Id), validateData);
-    return validateData;
-  } catch (error) {
-    return error;
+    return true;
+  } catch {
+    return false;
   }
 };
 
@@ -217,10 +217,10 @@ export const getOnceVideo = async (id: string) => {
     if (docSnap.exists()) {
       return { data: docSnap.data() };
     } else {
-      return { message: "document not found" };
+      return null;
     }
-  } catch (error) {
-    return { message: error };
+  } catch  {
+    return null;
   }
 };
 

@@ -59,7 +59,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   <mj-body>
     <mj-section background-color="#f4f4f4" padding="20px">
       <mj-column>
-        <mj-image width="150px" src="https://egqlrhuqpihddhdqptiy.supabase.co/storage/v1/object/public/HUSTLER/a-logo-mockup-for-ulearning-it-features-the-blue-l-6ZpwJiPDQx6vki_ny41A_w-bCiPqT3cQO2aCIbs1_S21w-removebg%203.png" alt="ULearning Logo" />
+        <mj-image width="150px" src="https://cloud.appwrite.io/v1/storage/buckets/67773cfd002d838e494a/files/67773d65003785beb66c/view?project=67773b3400015b0d3fc3&project=67773b3400015b0d3fc3&mode=admin" alt="ULearning Logo" />
         <mj-divider border-color="#e0e0e0" />
         <mj-text font-size="20px" font-family="Helvetica" align="center" color="#333333" font-weight="bold">
           Réinitialisez votre mot de passe

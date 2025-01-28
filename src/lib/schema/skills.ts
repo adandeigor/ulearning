@@ -15,7 +15,9 @@ export const CategorySchema = BaseSchema.extend({
 
 // Videos Schema
 export const VideosSchema = BaseSchema.extend({
+  video_id: z.string(),
   title: z.string(),
+  description : z.string(),
   url: z.string().url(),
   duration: z.number(),
 });
